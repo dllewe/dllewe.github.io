@@ -1,8 +1,10 @@
+p {
+  line-height: 1.9;
+}
+
 body {
   margin: 0 auto;
   max-width: 50em;
 }
 
-p {
-  line-height: 1.9;
-}
+
