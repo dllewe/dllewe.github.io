@@ -1,10 +1,59 @@
 <!DOCTYPE html>
 <html>
   <link rel="stylesheet" href="styles.css">
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .fixed-table {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        border-bottom: 1px solid #ccc;
+        z-index: 1000;
+    }
+
+    .fixed-table th, .fixed-table td {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .content {
+        margin-top: 30px; /* Adjust this value to prevent content from being hidden under the fixed table */
+    }
+</style>
+</head>
+<body>
+<div class="fixed-table">
+    <table>
+        <tr>
+            <th>Overall record</th>
+            <th>Units +/-</th>
+            <th>Profit</th>
+        </tr>
+        <tr>
+            <td>Content</td>
+            <td>Content</td>
+            <td>Content</td>
+        </tr>
+    </table>
+</div>
+
+<div class="content">
+    <!-- Your page content goes here -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae velit sodales, vehicula risus non, placerat ex. Nullam auctor pulvinar metus ac volutpat.</p>
+</div>
+  
 <head>
 <title>Daily Bets</title>
 </head>
 
+
+  
   
 <body>
   <main>
